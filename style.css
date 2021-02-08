@@ -17,14 +17,14 @@
 }
 
 .play-area div{
-    height: 400px;
+    height: 550px;
     flex: 1;
     padding: 10px;
     text-align: center;
     border: solid black 1px;
 }
 .play-area img{
-    height: 20%;
+    height: 22%;
     padding: 10px;
 }
 .score-table-box{
@@ -36,4 +36,9 @@
     border: green 2px solid;
     text-align: center;
     padding: 5px;
+}
+.flexer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
