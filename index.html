@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>blackjack</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h3><span id="blackjack-result">Lets Play</span></h3>
+		<div class="score-table-box">
+			<table class="table-box">
+				<tr>
+					<th>wins</th>
+					<th>looses</th>
+					<th>draws</th>
+				</tr>
+				<tr>
+					<td id="wins">0</td>
+					<td id="looses">0</td>
+					<td id="draws">0</td>
+				</tr>
+			</table>
+		</div>
+		<div class="play-area">
+			<div id="your-box">
+				<h2>Your score:<span id="your-blackjack-result">0</span></h2>
+			</div>
+			<div id="dealer-box">
+				<h2>Dealer score:<span id="dealer-blackjack-result">0</span></h2>
+			</div>
+		</div>
+		<div class="button-box">
+			<button class="btn btn-danger" id="hit">HIT</button>
+			<button class="btn btn-primary" id="stand">Stand</button>
+			<button class="btn btn-success" id="deal">Deal</button>
+		</div>
+		
+	</div>
+	<p style="text-align: center;"><bold>BLackJack By Tanmay Mandal</bold></p>
+<script src="home2.js"></script>
+</body>
+</html>

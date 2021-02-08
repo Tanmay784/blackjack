@@ -1,0 +1,39 @@
+.container{
+    border: black solid 2px;
+    text-align: center;
+    width:95%;
+    margin: 0 auto;
+}
+.play-area{
+    background: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button-box{
+    background: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center;
+    padding: 10px;
+}
+
+.play-area div{
+    height: 550px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: solid black 1px;
+}
+.play-area img{
+    height: 22%;
+    padding: 10px;
+}
+.score-table-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.table-box{
+    border: green 2px solid;
+    text-align: center;
+    padding: 5px;
+}
