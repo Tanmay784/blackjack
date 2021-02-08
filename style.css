@@ -13,11 +13,13 @@
 }
 .button-box{
     background: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
 }
 
 .play-area div{
-    height: 450px;
+    height: 550px;
     flex: 1;
     padding: 10px;
     text-align: center;
