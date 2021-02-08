@@ -17,7 +17,7 @@
 }
 
 .play-area div{
-    height: 550px;
+    height: 450px;
     flex: 1;
     padding: 10px;
     text-align: center;
@@ -25,7 +25,7 @@
 }
 .play-area img{
     height: 22%;
-    padding: 10px;
+    padding: 1px;
 }
 .score-table-box{
     display:flex;
