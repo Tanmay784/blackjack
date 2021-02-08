@@ -17,14 +17,14 @@
 }
 
 .play-area div{
-    height: 550px;
+    height: 4000px;
     flex: 1;
     padding: 10px;
     text-align: center;
     border: solid black 1px;
 }
 .play-area img{
-    height: 22%;
+    height: 20%;
     padding: 10px;
 }
 .score-table-box{
